@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="test_MySyncFolder-20191202211641" tests="5" time="120.086">
+	<testcase classname="test_MySyncFolder" name="test_addnewfolder" time="16.959"/>
+	<testcase classname="test_MySyncFolder" name="test_note" time="28.471"/>
+	<testcase classname="test_MySyncFolder" name="test_rename" time="22.019"/>
+	<testcase classname="test_MySyncFolder" name="test_movefolder" time="34.720"/>
+	<testcase classname="test_MySyncFolder" name="test_addmessage" time="17.918">
+		<error message="'新增訊息' != '持續努力'
+- 新增訊息
++ 持續努力
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "test_MySyncFolder.py", line 130, in test_addmessage
+    self.assertEqual(message_text, "持續努力")
+AssertionError: '新增訊息' != '持續努力'
+- 新增訊息
++ 持續努力
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

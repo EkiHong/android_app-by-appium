@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="unittest.suite._ErrorHolder-20191202211641" tests="1" time="0.000">
+	<testcase classname="unittest.suite._ErrorHolder" name="test_MySyncFolder)" time="0.000">
+		<error message="'NoneType' object has no attribute 'click'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "test_MySyncFolder.py", line 152, in tearDownClass
+    cls.logout()
+  File "test_MySyncFolder.py", line 144, in logout
+    MySync.burger_menu_butn()
+  File "D:\AsusCloud_android\src\pages\MySyncFolderPage.py", line 60, in burger_menu_butn
+    self.find_element(*self.burger_menu_loc).click()
+AttributeError: 'NoneType' object has no attribute 'click'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

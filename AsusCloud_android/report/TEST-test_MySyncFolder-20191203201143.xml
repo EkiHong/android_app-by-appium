@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="test_MySyncFolder-20191203201143" tests="4" time="94.105">
+	<testcase classname="test_MySyncFolder" name="test_addnewfolder" time="16.309"/>
+	<testcase classname="test_MySyncFolder" name="test_note" time="28.691"/>
+	<testcase classname="test_MySyncFolder" name="test_rename" time="22.211"/>
+	<testcase classname="test_MySyncFolder" name="test_addmessage" time="26.895"/>
+	<system-out>
+<![CDATA[test
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
